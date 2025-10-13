@@ -10,7 +10,6 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-
 void dfs(TreeNode* root, std::vector<int>& result){
 std::vector<bool> marked(false);
 std::queue<TreeNode*> q;
